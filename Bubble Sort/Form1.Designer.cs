@@ -1,24 +1,24 @@
-﻿namespace lab1
+﻿namespace Bubble_Sort
 {
-	partial class Form1
-	{
-		/// <summary>
-		///  Required designer variable.
-		/// </summary>
-		private System.ComponentModel.IContainer components = null;
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
 
-		/// <summary>
-		///  Clean up any resources being used.
-		/// </summary>
-		/// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-		protected override void Dispose(bool disposing)
-		{
-			if (disposing && (components != null))
-			{
-				components.Dispose();
-			}
-			base.Dispose(disposing);
-		}
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
 
         #region Windows Form Designer generated code
 
@@ -35,19 +35,18 @@
             // listBoxResults
             // 
             listBoxResults.FormattingEnabled = true;
-            listBoxResults.Location = new Point(195, 42);
+            listBoxResults.Location = new Point(212, 63);
             listBoxResults.Name = "listBoxResults";
-            listBoxResults.Size = new Size(472, 251);
+            listBoxResults.Size = new Size(515, 327);
             listBoxResults.TabIndex = 0;
-            listBoxResults.SelectedIndexChanged += listBoxResults_SelectedIndexChanged;
             // 
             // button1
             // 
-            button1.Location = new Point(57, 91);
+            button1.Location = new Point(51, 86);
             button1.Name = "button1";
-            button1.Size = new Size(104, 28);
+            button1.Size = new Size(124, 37);
             button1.TabIndex = 1;
-            button1.Text = "Sort";
+            button1.Text = "button1";
             button1.UseVisualStyleBackColor = true;
             button1.Click += btnSort_Click;
             // 

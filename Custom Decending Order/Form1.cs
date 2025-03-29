@@ -1,4 +1,4 @@
-namespace lab1
+namespace Custom_Decending_Order
 {
     public partial class Form1 : Form
     {
@@ -8,7 +8,7 @@ namespace lab1
         }
         public int[] ProceduralSort(int[] numbers)
         {
-            Array.Sort(numbers);
+           
             return numbers;
         }
 
@@ -17,11 +17,6 @@ namespace lab1
             int[] numbers = { 3, 1, 5, 2, 4 };
             int[] sortedNumber = ProceduralSort(numbers);
             listBoxResults.DataSource = sortedNumber;
-        }
-
-        private void listBoxResults_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
