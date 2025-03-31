@@ -37,16 +37,18 @@
             // 
             // txtArrayInput
             // 
-            txtArrayInput.Location = new Point(210, 155);
+            txtArrayInput.Location = new Point(240, 196);
+            txtArrayInput.Margin = new Padding(3, 4, 3, 4);
             txtArrayInput.Name = "txtArrayInput";
-            txtArrayInput.Size = new Size(247, 23);
+            txtArrayInput.Size = new Size(282, 26);
             txtArrayInput.TabIndex = 0;
             // 
             // btnCalculateSum
             // 
-            btnCalculateSum.Location = new Point(22, 144);
+            btnCalculateSum.Location = new Point(25, 182);
+            btnCalculateSum.Margin = new Padding(3, 4, 3, 4);
             btnCalculateSum.Name = "btnCalculateSum";
-            btnCalculateSum.Size = new Size(124, 42);
+            btnCalculateSum.Size = new Size(142, 53);
             btnCalculateSum.TabIndex = 1;
             btnCalculateSum.Text = "Calculate Sum";
             btnCalculateSum.UseVisualStyleBackColor = true;
@@ -55,25 +57,27 @@
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(195, 248);
+            lblResult.Location = new Point(223, 314);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(39, 15);
+            lblResult.Size = new Size(49, 20);
             lblResult.TabIndex = 2;
             lblResult.Text = "Result";
             lblResult.Click += label1_Click;
             // 
             // txtInput
             // 
-            txtInput.Location = new Point(210, 96);
+            txtInput.Location = new Point(240, 122);
+            txtInput.Margin = new Padding(3, 4, 3, 4);
             txtInput.Name = "txtInput";
-            txtInput.Size = new Size(247, 23);
+            txtInput.Size = new Size(282, 26);
             txtInput.TabIndex = 3;
             // 
             // button1
             // 
-            button1.Location = new Point(22, 84);
+            button1.Location = new Point(25, 106);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(124, 44);
+            button1.Size = new Size(142, 56);
             button1.TabIndex = 4;
             button1.Text = "Calculate factorial";
             button1.UseVisualStyleBackColor = true;
@@ -81,14 +85,15 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(469, 410);
+            ClientSize = new Size(543, 420);
             Controls.Add(button1);
             Controls.Add(txtInput);
             Controls.Add(lblResult);
             Controls.Add(btnCalculateSum);
             Controls.Add(txtArrayInput);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);

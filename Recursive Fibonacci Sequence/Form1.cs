@@ -6,11 +6,10 @@ namespace Recursive_Fibonacci_Sequence
         {
             InitializeComponent();
         }
-
         public int RecursiveFibonacci(int n)
         {
             if (n <= 1) return n;
-            return RecursiveFibonacci(n - 1) + RecursiveFibonacci(n - 2) ;
+            return RecursiveFibonacci(n - 1) + RecursiveFibonacci(n - 2);
         }
         private void btnCalculateSequence_Click(object sender, EventArgs e)
         {
@@ -18,6 +17,5 @@ namespace Recursive_Fibonacci_Sequence
             int result = RecursiveFibonacci(number);
             lblResult.Text = $"Result: {result}";
         }
-
     }
 }

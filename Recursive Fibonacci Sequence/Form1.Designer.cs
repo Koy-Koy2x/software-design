@@ -28,45 +28,45 @@
         /// </summary>
         private void InitializeComponent()
         {
-            button1 = new Button();
+            btnInitiate = new Button();
             txtInput = new TextBox();
             lblResult = new Label();
             SuspendLayout();
             // 
-            // button1
+            // btnInitiate
             // 
-            button1.Location = new Point(53, 77);
-            button1.Name = "button1";
-            button1.Size = new Size(75, 23);
-            button1.TabIndex = 0;
-            button1.Text = "Calculate";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += btnCalculateSequence_Click;
+            btnInitiate.Location = new Point(50, 67);
+            btnInitiate.Name = "btnInitiate";
+            btnInitiate.Size = new Size(142, 43);
+            btnInitiate.TabIndex = 0;
+            btnInitiate.Text = "Initiate";
+            btnInitiate.UseVisualStyleBackColor = true;
+            btnInitiate.Click += btnCalculateSequence_Click;
             // 
             // txtInput
             // 
-            txtInput.Location = new Point(168, 77);
+            txtInput.Location = new Point(262, 76);
             txtInput.Name = "txtInput";
-            txtInput.Size = new Size(115, 23);
+            txtInput.Size = new Size(138, 26);
             txtInput.TabIndex = 1;
             // 
             // lblResult
             // 
             lblResult.AutoSize = true;
-            lblResult.Location = new Point(130, 124);
+            lblResult.Location = new Point(202, 156);
             lblResult.Name = "lblResult";
-            lblResult.Size = new Size(38, 15);
+            lblResult.Size = new Size(49, 20);
             lblResult.TabIndex = 2;
-            lblResult.Text = "label1";
+            lblResult.Text = "Result";
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(364, 283);
+            ClientSize = new Size(477, 352);
             Controls.Add(lblResult);
             Controls.Add(txtInput);
-            Controls.Add(button1);
+            Controls.Add(btnInitiate);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -75,7 +75,7 @@
 
         #endregion
 
-        private Button button1;
+        private Button btnInitiate;
         private TextBox txtInput;
         private Label lblResult;
     }
