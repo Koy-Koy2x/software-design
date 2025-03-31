@@ -28,12 +28,89 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            button1 = new Button();
+            txtInputBase = new TextBox();
+            txtInputExponent = new TextBox();
+            label1 = new Label();
+            label2 = new Label();
+            lblResult = new Label();
+            SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(47, 95);
+            button1.Name = "button1";
+            button1.Size = new Size(90, 28);
+            button1.TabIndex = 0;
+            button1.Text = "Solve";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += btnCalculatePower;
+            // 
+            // txtInputBase
+            // 
+            txtInputBase.Location = new Point(202, 97);
+            txtInputBase.Name = "txtInputBase";
+            txtInputBase.Size = new Size(74, 26);
+            txtInputBase.TabIndex = 1;
+            // 
+            // txtInputExponent
+            // 
+            txtInputExponent.Location = new Point(321, 97);
+            txtInputExponent.Name = "txtInputExponent";
+            txtInputExponent.Size = new Size(83, 26);
+            txtInputExponent.TabIndex = 2;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(202, 61);
+            label1.Name = "label1";
+            label1.Size = new Size(40, 20);
+            label1.TabIndex = 3;
+            label1.Text = "Base";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(321, 61);
+            label2.Name = "label2";
+            label2.Size = new Size(71, 20);
+            label2.TabIndex = 4;
+            label2.Text = "Exponent";
+            // 
+            // lblResult
+            // 
+            lblResult.AutoSize = true;
+            lblResult.Location = new Point(202, 165);
+            lblResult.Name = "lblResult";
+            lblResult.Size = new Size(56, 20);
+            lblResult.TabIndex = 5;
+            lblResult.Text = "Result: ";
+            // 
+            // Form1
+            // 
+            AutoScaleDimensions = new SizeF(8F, 19F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(463, 394);
+            Controls.Add(lblResult);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Controls.Add(txtInputExponent);
+            Controls.Add(txtInputBase);
+            Controls.Add(button1);
+            Name = "Form1";
+            Text = "Form1";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Button button1;
+        private TextBox txtInputBase;
+        private TextBox txtInputExponent;
+        private Label label1;
+        private Label label2;
+        private Label lblResult;
     }
 }
